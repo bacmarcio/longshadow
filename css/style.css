@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *
 {
     margin: 0;
@@ -34,4 +35,42 @@ body
     
 
     margin-left: 20em;  
+=======
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ff3463;
+}
+.box
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    
+}
+.circle
+{
+    border-radius: 50%;
+    margin-left: 20em;
+}
+.triangle
+{
+    border-style: solid;
+    border-width: 0 0 200px 200px;
+    border-color: transparent transparent #fff transparent;
+    background: transparent;
+    
+
+    margin-left: 20em;  
+>>>>>>> 6f74e446c37540ecc703d30fdb16203472d312ae
 }
